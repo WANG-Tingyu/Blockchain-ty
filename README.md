@@ -1,5 +1,7 @@
-# A Java-based PoW Blockchain with GUI
+# A Java-based Blockchain with GUI
 A Java-based PoW blockchain as well as a basic GUI to demonstrate some functions of the blockchain including making transactions, searching block information, and searching transaction information. Also, the project has implemented Apache Maven to help us manage and download the project’s required library and dependencies.
+---
+- :star2: **Found this repository helpful?** Light it up with a star and make my day! :wink:
 
 ## Outline
 0. Setup
@@ -362,3 +364,6 @@ To create a new normal transaction, the transaction input and transaction output
 - For every 4 blocks mined, the difficulty of mining would be reviewed, and maybe recalculated. To determine if the mining difficulty needs to be adjusted, the time expected to generate a block and the actual time taken to generate a block would be taken into consideration. The time expected is calculated by multiplying the block generation interval and the difficulty adjustment interval. The actual time taken is the difference between the latest block and the previous adjustment block which is 4 blocks before.
 - If the time taken is smaller than half of the time expected to generate a block, the difficulty would be added by 1 from the previous adjustment block which is one more prefix zero required for mining. However, the difficulty would be reduced by 1 when the time taken is larger than twice the time expected. If none of the mentioned scenarios happened, the difficulty would remain unchanged.
 - This could ensure the difficulty of the blockchain could be adjusted dynamically based on the block generation speed.
+
+---
+- :star2: **Found this repository helpful?** Light it up with a star and make my day! :wink:
