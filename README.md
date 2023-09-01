@@ -12,7 +12,7 @@ A Java-based PoW blockchain as well as a basic GUI to demonstrate some functions
 ### 0.Setup
 1. Clone the repo
 ```shell
-git clone 
+git clone https://github.com/WANG-Tingyu/Blockchain-ty.git
 ```
 2. Make sure your configure correct maven repo. Check dependencies. 
 3. Go to 
