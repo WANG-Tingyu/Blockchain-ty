@@ -1,6 +1,5 @@
 # A Java-based Blockchain with GUI
 A Java-based PoW blockchain as well as a basic GUI to demonstrate some functions of the blockchain including making transactions, searching block information, and searching transaction information. Also, the project has implemented Apache Maven to help us manage and download the project’s required library and dependencies.
----
 - :star2: **Found this repository helpful?** Light it up with a star and make my day! :wink:
 
 ## Outline
